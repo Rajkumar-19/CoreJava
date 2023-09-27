@@ -6,7 +6,7 @@ class One {
 	final int numFinal = 25;
 
 	public void display() {
-		System.out.println("One " + this.numtest);
+		System.out.println("parent display" + this.numtest);
 //this.numFinal =30; unable to change the value 
 	}
 
@@ -17,7 +17,8 @@ class One {
 class Two extends One {
 
 	public void display() {
-		System.out.println("Two");
+		System.out.println("child display");
+		super.display(); // calling parent class from child class 
 	}
 
 	public int add(int x, int y) {
@@ -68,7 +69,6 @@ class OopsConcept {
 		a.display();
 		Two b = new Two();
 		b.display();
-		//TODO : access the display method of parent class on child class
 		System.out.println(b.add(4, 2));
 		System.out.println(b.add(5.0, 2.0)); // polymorphism
 		EncapTest encap = new EncapTest();
