@@ -92,23 +92,23 @@ public class CollectionsConcepts {
 		hs.add("praveen");
 		hs.add("kumar");
 		hs.add("xavier");
-		System.out.println("HashSet values "+hs);
-		
+		System.out.println("HashSet values " + hs);
+
 		LinkedHashSet<String> lhs = new LinkedHashSet<String>();
 		lhs.add("raj");
 		lhs.add("kumar");
 		lhs.add("praveen");
 		lhs.add("kumar");
 		lhs.add("xavier");
-		System.out.println("LinkedHashSet values "+lhs);
-		
-		TreeSet<String> ts = new TreeSet<String>(); //sort & add the values in the set 
+		System.out.println("LinkedHashSet values " + lhs);
+
+		TreeSet<String> ts = new TreeSet<String>(); // sort & add the values in the set
 		ts.add("raj");
 		ts.add("kumar");
 		ts.add("praveen");
 		ts.add("kumar");
 		ts.add("xavier");
-		System.out.println("TreeSet values "+ts);
+		System.out.println("TreeSet values " + ts);
 	}
 
 	public static void main(String[] args) {

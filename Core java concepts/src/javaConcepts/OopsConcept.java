@@ -18,7 +18,7 @@ class Two extends One {
 
 	public void display() {
 		System.out.println("child display");
-		super.display(); // calling parent class from child class 
+		super.display(); // calling parent class from child class
 	}
 
 	public int add(int x, int y) {
