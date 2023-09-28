@@ -3,13 +3,13 @@ package javaConcepts;
 public class StringConcepts {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 String s1="hi";
 String s2="hi";
 System.out.println("s1 identity hashcode "+System.identityHashCode(s1));
 System.out.println("s1 identity hashcode"+ System.identityHashCode(s2));
 System.out.println(System.identityHashCode(s1) == System.identityHashCode(s2));
-
+s2="test";
+System.out.println(s1+","+s2);
 //String using objects
 
 String s3 =new String("hi");
